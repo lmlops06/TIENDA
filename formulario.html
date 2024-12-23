@@ -20,7 +20,7 @@
     <fieldset>
         <legend>Sus Datos</legend>
         <p>
-            <label for="Name">Nombre y apellidos: </label><input type="text" maxlength="50">
+            <label for="Name">Nombre y apellidos: </label><input type="text" name="name"   maxlength="50">
         </p>
         <p>
             <label for="Contraseña">Contraseña: </label><input type="password" name="contraseña" maxlength="8">
@@ -32,13 +32,13 @@
             <label for="Nivel">Nivel: </label>
         </p>
         <p>
-            <input type="radio" name="profesional"> Profesional 
+            <input type="radio" name="nivel"> <label for="profesional">Profesional</label> 
         </p>
           <p>  
-            <input type="radio" name="avanzado " checked> Avazando 
+            <input type="radio" name="nivel" checked> <label for="avanzado">Avanzado</label> 
         </p>
         <p>
-            <input type="radio" name="principiante"> Principiante 
+            <input type="radio" name="nivel"> <label for="principiante">Principiante</label> 
         </p>
     </fieldset>
         <p>
@@ -65,7 +65,7 @@
             <label for="Adjuntar">Adjuntar foto: </label><input type="file" name="" id="">
         </p>
         <p>
-            <input type="submit"> <input type="reset">
+            <input type="submit" name="enviar"> <input type="reset" name="restablecer">
         </p>
       
 
